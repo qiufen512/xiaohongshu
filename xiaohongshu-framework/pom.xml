@@ -21,6 +21,7 @@
     <modules>
         <!-- 通用工具组件 -->
         <module>xiaohong-common</module>
+        <module>spring-boot-starter-biz-operationlog</module>
     </modules>
 
 </project>
