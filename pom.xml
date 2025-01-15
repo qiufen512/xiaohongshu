@@ -109,6 +109,13 @@
         <version>${revision}</version>
       </dependency>
 
+      <!-- Jackson 组件 -->
+      <dependency>
+        <groupId>com.qiufen</groupId>
+        <artifactId>spring-boot-starter-jackson</artifactId>
+        <version>${revision}</version>
+      </dependency>
+
       <!-- Mybatis -->
       <dependency>
         <groupId>org.mybatis.spring.boot</groupId>
