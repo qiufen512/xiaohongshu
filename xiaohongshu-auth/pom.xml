@@ -13,7 +13,7 @@
     <!-- 指定打包方式 -->
     <packaging>jar</packaging>
 
-    <artifactId>xiaohashu-auth</artifactId>
+    <artifactId>xiaohongshu-auth</artifactId>
     <name>${project.artifactId}</name>
     <description>小哈书：认证服务（负责处理用户登录、注册、账号注销等）</description>
 
@@ -27,6 +27,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.qiufen</groupId>
+            <artifactId>xiaohong-common</artifactId>
         </dependency>
     </dependencies>
 
